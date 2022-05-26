@@ -1,0 +1,113 @@
+@font-face {
+  font-family: 'Source Sans Pro';
+  src: url(fonts/SourceSansPro-ExtraLight.ttf);
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-family: 'Source Sans Pro';
+  background: #ebc7c7;
+}
+
+img {
+  border-radius: 0 15px 15px 0;
+  width: 500px;
+  height: 675px;
+}
+
+h1 {
+  font-size: 36px;
+  margin-top: 15px;
+  display: flex;
+  align-items: center;
+}
+
+h1, label {
+  font-weight: bold;
+}
+
+label {
+  font-size: 18px;
+}
+
+input {
+  border-radius: 4px;
+  margin-top: 5px;
+  padding: 6px 10px;
+  border: 1px solid #ccc;
+}
+
+input[type="submit"] {
+  padding: 10px 20px;
+}
+
+input:focus {
+  border: 1px solid rgb(171, 161, 161);
+  outline: #ccc;
+}
+
+.container {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.form-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #fff;
+  width: 550px;
+  height: 675px;
+  border-radius: 15px 0 0 15px;
+}
+
+.wrapper {
+  margin-top: 15px;
+  width: 45%;
+  display: flex;
+  flex-direction: column;
+}
+
+.name-wrapper {
+  margin-top: 15px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.date-wrapper, .file-wrapper, .password-wrapper {
+  margin-top: 15px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.address-wrapper, .contacts-wrapper{
+  display: flex;
+  justify-content: space-between;
+}
+
+.submit-wrapper {
+  margin-top: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.btn-submit {
+  cursor: pointer;
+  color: #fff;
+  border: none;
+  background-color: #000;
+}
+
+.btn-submit:hover {
+  background-color: rgb(96, 92, 92);
+}
